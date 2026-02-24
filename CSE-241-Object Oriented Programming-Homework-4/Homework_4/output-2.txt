@@ -1,0 +1,217 @@
+PS C:\Users\33tas\OneDrive\Masaüstü\homeworks_OOP> ./HW4
+============================================
+   CONNECT FOUR GAME - CSE241 HW#4
+============================================
+Select Game Mode:
+[P] ConnectFour Plus (Only Horizontal/Vertical)
+[D] ConnectFour Diag (Only Diagonal)
+[U] ConnectFour Plus Undo (Plus + Undo Feature)
+Choice: D
+
+Select Board Initialization:
+[1] Default Board (5x5)
+[2] Custom Board (Enter Rows and Cols)
+[3] Load from File
+Choice: 3
+Enter filename (e.g. board.txt): denemetahtasi-2.txt
+
+Game loaded successfully!
+
+ abcdefghi
+1*        
+2***      
+3*****    
+4*******  
+5*********
+6*******  
+7*****    
+8***      
+9*        
+
+
+Your move (row col, e.g., 5 A): 5 i
+ abcdefghi
+1*        
+2***      
+3*****    
+4*******  
+5********O
+6*******  
+7*****    
+8***      
+9*
+
+
+Computer is thinking...
+ abcdefghi
+1*
+2***
+3*****
+4*******
+5*******XO
+6*******
+7*****
+8***
+9*
+
+
+Your move (row col, e.g., 5 A): 6 g
+ abcdefghi
+1*
+2***
+3*****
+4*******
+5*******XO
+6******O
+7*****
+8***
+9*
+
+
+Computer is thinking...
+ abcdefghi
+1*
+2***
+3*****
+4*******
+5******XXO
+6******O
+7*****
+8***
+9*
+
+
+Your move (row col, e.g., 5 A): 7 e
+ abcdefghi
+1*
+2***
+3*****
+4*******
+5******XXO
+6******O
+7****O
+8***
+9*
+
+
+Computer is thinking...
+ abcdefghi
+1*
+2***
+3*****
+4******X
+5******XXO
+6******O
+7****O
+8***
+9*
+
+
+Your move (row col, e.g., 5 A): 6 f
+ abcdefghi
+1*
+2***
+3*****
+4******X
+5******XXO
+6*****OO
+7****O
+8***
+9*
+
+
+Computer is thinking...
+ abcdefghi
+1*
+2***
+3*****
+4******X
+5*****XXXO
+6*****OO
+7****O
+8***
+9*
+
+
+Your move (row col, e.g., 5 A): 9 a
+ abcdefghi
+1*
+2***
+3*****
+4******X
+5*****XXXO
+6*****OO
+7****O
+8***
+9O
+
+
+Computer is thinking...
+ abcdefghi
+1*
+2***
+3*****
+4*****XX
+5*****XXXO
+6*****OO
+7****O
+8***
+9O
+
+
+Your move (row col, e.g., 5 A): 8 b
+ abcdefghi
+1*
+2***
+3*****
+4*****XX
+5*****XXXO
+6*****OO
+7****O
+8*O*
+9O
+
+
+Computer is thinking...
+ abcdefghi
+1*
+2***
+3*****
+4*****XX
+5*****XXXO
+6****XOO
+7****O
+8*O*
+9O
+
+
+Your move (row col, e.g., 5 A): 8 c
+ abcdefghi
+1*
+2***
+3*****
+4*****XX
+5*****XXXO
+6****XOO
+7****O
+8*OO
+9O
+
+
+Computer is thinking...
+Computer (X) wins!
+ abcdefghi
+1*
+2***
+3*****
+4*****XX
+5*****XXXO
+6****XOO
+7***XO
+8*OO
+9O
+
+
+Computer (X) wins!
+Game Over!
+Board saved to saved_board.txt

@@ -1,0 +1,9 @@
+    *    
+   ***   
+  *****  
+ ******X 
+O****XXXX
+ O**XOXX 
+  OOOXO  
+   XOO   
+    O    
